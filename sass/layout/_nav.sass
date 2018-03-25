@@ -9,12 +9,18 @@
   overflow: hidden
 
   transition: all ease-in-out 250ms
+  @media(min-width: 725px)
+    position: relative
 
   ul
     display: flex
     flex-direction: column
     justify-content: space-around
     height: 100vh
+
+    @media(min-width: 725px)
+      flex-direction: row
+      height: auto
 
   li
     flex: 1 1 auto
